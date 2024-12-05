@@ -1,4 +1,4 @@
-console.log("Import Success");
+console.log("Import Success 2024");
 $("[tr-scroll-toggle='component']").each(function (index) {
   // get elements
   let component = $(this);
