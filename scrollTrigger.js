@@ -1,4 +1,4 @@
-console.log("Scroll Trigger Import Success");
+console.log("Scroll Trigger Import Success 2024");
 gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.defaults({
