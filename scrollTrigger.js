@@ -97,7 +97,7 @@ $(".sticky-circle-wrap").each(function (index) {
     });
     tl.to(targetElement, {
         scale: 1.5,
-        y: -150,
+        y: -50,
         duration: 1
     });
   });
