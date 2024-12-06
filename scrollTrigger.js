@@ -5,29 +5,29 @@ ScrollTrigger.defaults({
   markers: false
 });
 
-// Animate From - Logo Animation
-$(".rl_section_header_s_three").each(function (index) {
-    let triggerElement = $(this);
-    let targetElement = $(".rl-heading-style-h1.is-white.section-two");
+// // Animate From - Logo Animation
+// $(".rl_section_header_s_three").each(function (index) {
+//     let triggerElement = $(this);
+//     let targetElement = $(".rl-heading-style-h1.is-white.section-two");
   
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: triggerElement,
-        // trigger element - viewport
-        start: "top top",
-        end: "bottom top",
-        scrub: 1
-      }
-    });
-    tl.to(targetElement, {
-      scale: 1.5,
-      y: 500,
-      ease: "quad",
-      duration: 1
-    });
-  });
+//     let tl = gsap.timeline({
+//       scrollTrigger: {
+//         trigger: triggerElement,
+//         // trigger element - viewport
+//         start: "top top",
+//         end: "bottom top",
+//         scrub: 1
+//       }
+//     });
+//     tl.to(targetElement, {
+//       scale: 1.5,
+//       y: 500,
+//       ease: "quad",
+//       duration: 1
+//     });
+//   });
 
-  // Animate From To - Last Section Animation
+  // Animate From To - Last Section Sticky Cirlce Animation
 $(".sticky-circle-wrap").each(function (index) {
     let triggerElement = $(this);
     let targetElement = $(".sticky-circle-element");
@@ -95,9 +95,9 @@ $(".sticky-circle-wrap").each(function (index) {
         scrub: 1
       }
     });
-    tl.to(targetElement, {
-        scale: 1.5,
-        y: -50,
+    tl.from(targetElement, {
+        scale: 0.75,
+        y: 200,
         duration: 1
     });
   });
