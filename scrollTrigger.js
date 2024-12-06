@@ -42,9 +42,9 @@ $(".sticky-circle-wrap").each(function (index) {
       }
     });
     tl.fromTo(targetElement, {
-        width: "30rem",
-        height: "30rem",
-        borderRadius: "30rem",
+        width: "18rem",
+        height: "18rem",
+        borderRadius: "18rem",
         duration: 1
       },
       {
