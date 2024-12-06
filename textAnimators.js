@@ -1,3 +1,5 @@
+console.log("Import Success Text Animators 2024")
+
 window.addEventListener("DOMContentLoaded", (event) => {
   // Split text into spans
   let typeSplit = new SplitType("[text-split]", {
