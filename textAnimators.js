@@ -1,4 +1,4 @@
-console.log("Import Success Text Animators 2024")
+console.log("Import Success Text Animators 2024");
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Split text into spans

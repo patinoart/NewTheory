@@ -90,13 +90,14 @@ $(".sticky-circle-wrap").each(function (index) {
       scrollTrigger: {
         trigger: triggerElement,
         // trigger element - viewport
-        start: "top top",
+        start: "top center",
         end: "center bottom",
         scrub: 1
       }
     });
     tl.from(targetElement, {
         scale: 0.75,
+        opacity: 0,
         y: 200,
         duration: 1
     });
